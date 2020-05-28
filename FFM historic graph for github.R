@@ -8,8 +8,8 @@ library("tidyquant")
 watson<-read.csv("presidentialWatson.csv",header=T)
 
 
-uk<-read.csv("British.csv")
-us<-read.csv("American.csv")
+uk<-read.csv("Supplementary Table 2 - Data British English.csv")
+us<-read.csv("Supplementary Table 1 - Data American English.csv")
 adj<-read.csv("adjectives.csv",sep=";")
 time<-seq(1700,2025,25)
 
